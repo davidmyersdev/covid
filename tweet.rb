@@ -24,9 +24,9 @@ client = Twitter::REST::Client.new do |config|
 end
 
 client.update <<~TWEET
-  COVID update.
+  [Automated] Ohio COVID update.
 
-  Total Ohio cases: #{cases}
-  Total Ohio recovered: #{recovered}
-  Total Ohio deaths: #{deaths}
+  Cases: #{cases}
+  Recovered: #{recovered}
+  Deaths: #{deaths}
 TWEET
