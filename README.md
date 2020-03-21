@@ -27,8 +27,12 @@ ACCESS_TOKEN=your_access_token
 ACCESS_TOKEN_SECRET=your_access_token_secret
 ```
 
-Run the script.
+Install dependencies, and run the script.
 
 ```shell
+# install dependencies
+bundle
+
+# run script
 ruby tweet.rb
 ```
