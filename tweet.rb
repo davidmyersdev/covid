@@ -29,4 +29,6 @@ client.update <<~TWEET
   Cases: #{cases}
   Recovered: #{recovered}
   Deaths: #{deaths}
+
+  Availability of tests impacts the accuracy of this data.
 TWEET

@@ -12,6 +12,8 @@ This script posts a tweet for the authorized account similar to this.
 Cases: 174
 Recovered: 0
 Deaths: 3
+
+Availability of tests impacts the accuracy of this data.
 ```
 
 The data is pulled from [worldometers.info](https://www.worldometers.info/coronavirus) using [NovelCOVID/API](https://github.com/NovelCOVID/API).
